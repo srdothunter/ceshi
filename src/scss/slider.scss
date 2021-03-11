@@ -1,0 +1,191 @@
+.sliderBrdr{
+  height:330px;
+  overflow: hidden;
+}
+.homeTop{
+  color:#d51073;
+  font-size: 22px!important;
+}
+.homebtm{
+  padding: 4rem 1rem!important;
+}
+@media(min-width: 769px) {
+  .overflow{
+    overflow: hidden;
+  }
+}
+
+.slick-prev, .slick-next{
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #d51073;
+  line-height: 40px;
+  color: #ffffff;
+  z-index: 9;
+  //margin-top: -52px;
+
+}
+.slick-prev:hover, .slick-next:hover,
+.slick-prev:focus, .slick-next:focus{
+  background-color: #000;
+
+}
+.slick-prev:before, .slick-next:before{
+  font-family: "FontAwesome";
+  font-size: 26px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+}
+.slick-prev:before {
+  content: "";
+}
+.slick-next:before{
+  content: "";
+  padding-left:5px;
+}
+.slick-prev:hover:before,
+.slick-next:hover:before,
+.slick-prev:focus:before,
+.slick-next:focus:before{
+  color: #ffffff;
+}
+.slick-disabled,.slick-disabled:hover{
+  pointer-events: none;
+  cursor: default!important;
+  opacity: 0.8;
+}
+.trmain-slider{
+  padding: 400px 0 200px 0;
+  position: relative;
+}
+.tr-slider-image{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.siider-content p {
+  font-size: 24px;
+  color: #999999;
+}
+.siider-content h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #000000;
+  margin-bottom: 140px;
+  line-height: 60px;
+}
+.tr-form-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  min-width: 226.5px;
+  font-size: 24px;
+  padding: 17px 15px;
+}
+.trform-control {
+  font-size: 18px;
+  padding: 0 226px 0 40px;
+  height: 70px;
+  border: none!important;
+  -webkit-box-shadow: 3px 3px 24px 0px rgba(1, 2, 2, 0.02);
+  -moz-box-shadow: 3px 3px 24px 0px rgba(1, 2, 2, 0.02);
+  box-shadow: 3px 3px 24px 0px rgba(1, 2, 2, 0.02);
+}
+
+.testimonial-bg {
+  position: relative;
+  padding: 60px 0 30px;
+  background-image: url(../images/shape-9.png);
+  background-repeat: no-repeat;
+  background-position: center 3.5px;
+  box-sizing: border-box;
+}
+.trtestimonial-nav {
+  position: relative;
+  background-position:  center;
+  //background-image: url(../images/testimonial--shapeellipse.png);
+  background-image: url(../images/testimonial2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 260px;
+}
+.trtestimonial-nav:after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  z-index: -1;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: #e4e3eb;
+}
+.testimonial-slider-img {
+  height:200px;
+  display: flex!important;
+  align-items: center;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+.testimonial-slider-img:focus,
+.trtestimonial-nav .slick-slide:focus {
+  border: none;
+  outline: none;
+}
+
+.slick-slide .testimonial-slider-img img {
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  cursor: pointer;
+  -webkit-box-shadow: 3px 4px 10px 0px rgba(67, 57, 139, 0.1);
+  -moz-box-shadow: 3px 4px 10px 0px rgba(67, 57, 139, 0.1);
+  box-shadow: 3px 4px 10px 0px rgba(67, 57, 139, 0.1);
+}
+.slick-slide.intro-prev .testimonial-slider-img img,
+.slick-slide.intro-next .testimonial-slider-img img{
+  height: 100px;
+  width: 100px;
+}
+.slick-slide.intro-prev .testimonial-slider-img img{
+  margin-right: auto;
+  margin-left: 15px;
+}
+.slick-slide.intro-next .testimonial-slider-img img{
+  margin-left: auto;
+  margin-right: 15px;
+}
+.slick-slide.slick-center .testimonial-slider-img img{
+  height: 200px;
+  width: 200px;
+}
+.slick-slide .testimonial-slider-img img
+.slick-slide {
+  text-align: center;
+}
+.testimonial-slider .slider-for .slick-slide {
+  padding: 0;
+}
+
+.tr-testimonial-desc p {
+  margin-bottom: 0;
+}
+.tr-testimonial-desc h3 {
+  font-size: 30px;
+  color: #000000;
+  font-weight: 500;
+  margin: 30px 0;
+}
+
+.trtestimonial-nav .slick-track{
+  padding: 30px 0;
+}

@@ -1,0 +1,106 @@
+.header {
+  padding-top: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  .rightText{
+    text-align: right;
+  }
+  .leftText{
+    vertical-align: bottom;
+    padding:30px;
+    cursor: pointer;
+    span{
+      padding-right: 20px;
+      &:hover{
+        color: #d51073;
+      }
+    }
+
+    i{
+      padding-right: 10px;
+    }
+  }
+  .header-button{
+    select{
+      width: 50%;
+      text-align: right;
+      display: inline-block;
+    }
+    .topName{
+      font-size: 16px;
+      span{
+        color: #d51073;
+        text-transform : uppercase;
+        font-weight: bold;
+      }
+    }
+  }
+  .btn {
+    padding: 13px 30px;
+    color: #fff;
+    background-color: #d51073;
+    border-radius: 50px;
+    font-weight: 500;
+    margin-right: 15px;
+    &:hover {
+      background-color: #000;
+      color: #ffffff;
+    }
+  }
+}
+
+
+.trheading h2 {
+  font-size: 48px;
+  color: #d51073;
+  font-weight: 800;
+  line-height: 58px;
+  margin-bottom: 80px;
+}
+.trsubHeading p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #999999;
+  margin: 30px 0 50px 0;
+}
+
+
+
+
+footer {
+  overflow: hidden;
+}
+.footer-top {
+  margin: 70px 0 40px;
+  .col-12{
+    text-align: center;
+  }
+  .trFooter-Form-button {
+    background-color: #433a8b;
+    border-color:#433a8b ;
+    //position: absolute;
+    min-width: 250px;
+    line-height: 60px;
+    color: #ffffff;
+    font-size: 24px;
+    border-radius: 30px;
+    padding: 0 15px;
+    //right: 24px;
+    //top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .trFooter-Form-button:hover {
+    background-color: #000000;
+  }
+}
+.footer{
+  a{
+    margin-right: 20px;
+    color: #999999;
+    display: inline-block;
+  }
+}
