@@ -1,0 +1,35 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ develop2 ]
+  pull_request:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v2
+
+      - run: npm install
+      - run: npm run build
+      
+      - name: Create GitHub deployment
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: "${{ github.token }}"
+          publish_branch: develop2
+          publish_dir: build
+          cname: apron.network
