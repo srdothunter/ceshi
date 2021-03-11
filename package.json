@@ -2,7 +2,7 @@
   "name": "subdao-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://srdothunter.github.io/ceshi/",
+  "homepage": ".",
   "dependencies": {
     "@babel/core": "7.12.3",
     "@babel/helper-builder-react-jsx": "^7.12.13",
