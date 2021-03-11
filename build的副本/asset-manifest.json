@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ceshi/static/css/main.4d850498.chunk.css",
+    "main.js": "/ceshi/static/js/main.85d87710.chunk.js",
+    "main.js.map": "/ceshi/static/js/main.85d87710.chunk.js.map",
+    "runtime-main.js": "/ceshi/static/js/runtime-main.b77b271c.js",
+    "runtime-main.js.map": "/ceshi/static/js/runtime-main.b77b271c.js.map",
+    "static/css/2.d04f1e59.chunk.css": "/ceshi/static/css/2.d04f1e59.chunk.css",
+    "static/js/2.0253c568.chunk.js": "/ceshi/static/js/2.0253c568.chunk.js",
+    "static/js/2.0253c568.chunk.js.map": "/ceshi/static/js/2.0253c568.chunk.js.map",
+    "index.html": "/ceshi/index.html",
+    "static/css/2.d04f1e59.chunk.css.map": "/ceshi/static/css/2.d04f1e59.chunk.css.map",
+    "static/css/main.4d850498.chunk.css.map": "/ceshi/static/css/main.4d850498.chunk.css.map",
+    "static/js/2.0253c568.chunk.js.LICENSE.txt": "/ceshi/static/js/2.0253c568.chunk.js.LICENSE.txt",
+    "static/media/custom.scss": "/ceshi/static/media/jtusjig1_i6t8kchkm459wzhyzbi.6325549b.woff2",
+    "static/media/slick-theme.css": "/ceshi/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b77b271c.js",
+    "static/css/2.d04f1e59.chunk.css",
+    "static/js/2.0253c568.chunk.js",
+    "static/css/main.4d850498.chunk.css",
+    "static/js/main.85d87710.chunk.js"
+  ]
+}
